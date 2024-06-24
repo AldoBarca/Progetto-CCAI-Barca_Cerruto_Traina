@@ -50,7 +50,8 @@ class BasicDCASE24Dataset(TorchDataset):
 
 
 class SimpleSelectionDataset(TorchDataset):
-    """A dataset that selects a subsample from a dataset based on a set of sample ids.
+    """
+    A dataset that selects a subsample from a dataset based on a set of sample ids.
         Supporting integer indexing in range from 0 to len(self) exclusive.
     """
 

@@ -76,7 +76,7 @@ def train():
     freeze_base = True
     device = 'cuda' if (torch.cuda.is_available()) else 'cpu'
 
-    classes_num = 46
+    classes_num = 6
     pretrain = True if pretrained_checkpoint_path else False
     
     # Model

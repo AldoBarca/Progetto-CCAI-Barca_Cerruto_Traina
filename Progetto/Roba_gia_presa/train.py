@@ -16,8 +16,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 import torch.utils.data
-import utilities
-from modelli import Cnn14,init_layer
+#import utilities
+from Roba_gia_presa.modelli import Cnn14,init_layer
 import config
 
 
